@@ -82,9 +82,22 @@ Git & GitHub – Version control and collaborative development.
 
 
 If not, install the plugin and add it:
-npm install @vitejs/plugin-react    
+
+
+
+
+npm install @vitejs/plugin-react
+
+
+
       or
+
+
    npm install @vitejs/plugin-react --save-dev
+
+
+
+
 npm install react react-dom
 
 
