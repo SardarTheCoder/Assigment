@@ -1,18 +1,17 @@
 # Task Manager App
 
-A simple and dynamic Task Manager app built with **React.js**,  and **Tailwind classes** It allows users to add, update, and manage their tasks efficiently.
+A simple and dynamic Task Manager app built with **React.js** and **Tailwind classes**. It allows users to add, update, and manage their tasks efficiently.
 
 ---
 
-##  Features
+## Features
 
-###  Add New Task
+### Add New Task
 
 - Users can input:
- 
-- On input feild submission, the task is **dynamically added** to the task list.
+- On input field submission, the task is **dynamically added** to the task list.
 
-###  Mark Task as Complete/Incomplete
+### Mark Task as Complete/Incomplete
 
 - Each task has a **checkbox**.
 - Toggling the checkbox will:
@@ -21,7 +20,7 @@ A simple and dynamic Task Manager app built with **React.js**,  and **Tailwind c
 
 ---
 
-##  Branching Workflow
+## Branching Workflow
 
 To maintain clean and organized code, we follow a **child branch strategy**:
 
@@ -30,28 +29,34 @@ To maintain clean and organized code, we follow a **child branch strategy**:
 - Once complete, it is **merged into the `main` branch** through a pull request.
 
 ---
+
 ## Tech Stack
-Frontend:
-React.js – React framework for building fast and optimized web applications.
 
-Tailwind CSS – Utility-first CSS framework for fast and responsive UI design.
+**Frontend**  
+- React.js – React framework for building fast and optimized web applications.  
+- Tailwind CSS – Utility-first CSS framework for fast and responsive UI design.
 
-State Management:
-React Hooks – useState for managing component state .
+**State Management**  
+- React Hooks – `useState` for managing component state.
 
-Development Tools:
-ESLint – Linting tool to enforce consistent code style.
-
-Prettier – Code formatter to keep your code clean and readable.
-
-Git & GitHub – Version control and collaborative development. 
+**Development Tools**  
+- ESLint – Linting tool to enforce consistent code style.  
+- Prettier – Code formatter to keep your code clean and readable.  
+- Git & GitHub – Version control and collaborative development.
 
 ---
 
-##  Run the Project Locally
-/////////////Add pakage .json file 
+## Run the Project Locally
+------clone the repo
+git clone https://github.com/your-username/your-repo-name.git
 
 
+First, run the command to install packages && `package.json`, then copy the code below and paste it in your `package.json` file if it's not already there:
+
+```bash
+npm install @vitejs/plugin-react --save-dev
+
+\\\\\\\\\\\\    Add package.json file
 {
   "name": "vite-project",
   "private": true,
@@ -77,41 +82,20 @@ Git & GitHub – Version control and collaborative development.
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
     "vite": "^6.2.0"
-  }
+  },
 }
 
 
-If not, install the plugin and add it:
+                               or 
 
-
-
-
-npm install @vitejs/plugin-react
-
-
-
-      or
-
-
-   npm install @vitejs/plugin-react --save-dev
-
-
-
+if dependencies are not included::
 
 npm install react react-dom
 
 
+
+   then
+
+   
 npm install
-
-
-
 npm run dev
-if project not run remove import that are not in use fron App.js
-
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-
-
